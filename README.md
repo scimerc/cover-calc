@@ -27,9 +27,14 @@ bam files.
 the `sample##_` files contain individual coverage statistics, the `coverage_*` files contain
 cumulative summary coverage statistics:
 
-- `*_coverage.mosdepth.*     `: mosdepth output files;
-- `*_coveragePerBP.bed.gz*   `: mosdepth extra per base-pair output statistics;
-- `*_coverageReport*         `: sample-wise coverage reports at different aggregation levels;
-- `*_lowCoverage*            `: list of sample's coverage regions with reads below threshold;
-- `coverage_*                `: summary of the sample-wise `*_coverageReport*` files.
+- `*_coverage.mosdepth.*     `:
+mosdepth output files;
+- `*_coveragePerBP.bed.gz*   `:
+mosdepth extra per base-pair output statistics;
+- `*_coverageReport*         `:
+sample-wise coverage reports at different aggregation levels;
+- `*_lowCoverage*            `:
+list of sample's coverage regions with reads below threshold;
+- `coverage_*                `:
+summary of the sample-wise `*_coverageReport*` files.
 
