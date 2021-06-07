@@ -16,3 +16,9 @@ directory and run
 
 (see `script.sh` for a usage example)
 
+
+# Output
+
+the script writes a number of files at the given location. these contain sample-wise coverage
+statistics as well as cumulative summary statistics. the `example_run.png` in this repository shows
+the list of output files for a run of `script.sh` assuming `bamlist` contains three bam files.
